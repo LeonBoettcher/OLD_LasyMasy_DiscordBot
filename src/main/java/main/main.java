@@ -13,7 +13,7 @@ import java.lang.management.RuntimeMXBean;
 import java.util.Scanner;
 
 public class main extends ListenerAdapter {
-    
+
     public static boolean supportmove = true;
     public static long uptimeInSeconds = 0;
     public static long numberOfHours = 0;
