@@ -1,11 +1,11 @@
 package listeners;
 
-import net.dv8tion.jda.api.events.interaction.SlashCommandEvent;
+import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 
 public class onSlashCommand extends ListenerAdapter {
-    public void onSlashCommand(SlashCommandEvent event){
+    public void onSlashCommand(SlashCommandInteractionEvent event){
 
         System.out.println("SLash Command");
 

@@ -2,7 +2,7 @@ package listeners;
 
 import net.dv8tion.jda.api.events.message.react.MessageReactionAddEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
-import net.dv8tion.jda.api.interactions.components.Button;
+import net.dv8tion.jda.api.interactions.components.buttons.Button;
 
 public class onReaction extends ListenerAdapter {
     public void onMessageReactionAdd(MessageReactionAddEvent event){
